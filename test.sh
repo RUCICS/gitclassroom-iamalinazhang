@@ -14,7 +14,7 @@ fi
 if [ "$output" == "$expected_output" ] ; then
   echo "Pass: Output is correct"
 else
-  echo "Expected '$expected_output' but got: $output"
+  echo "Expected $expected_output but got: $output"
   exit 1
 fi
 
